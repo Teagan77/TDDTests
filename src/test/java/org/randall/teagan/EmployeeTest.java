@@ -19,7 +19,7 @@ public class EmployeeTest
     Employee b = new Employee(111,"Jhon","Davidson");
     Employee c = a;
 
-    // 1.1 TESTING FOR OBJECT EQUALITY!!!
+    // 1.1 TESTING FOR OBJECT EQUALITY
     @BeforeMethod
     public void setUpEquality(){
     }
@@ -33,7 +33,7 @@ public class EmployeeTest
     public void tearDownEquality(){
     }
 
-    // 1.2 TESTING FOR OBJECT IDENTITY!!!
+    // 1.2 TESTING FOR OBJECT IDENTITY
     @BeforeMethod
     public void setUpIdentity(){
     }
@@ -44,7 +44,7 @@ public class EmployeeTest
     public void tearDownIdentity(){
     }
 
-    // 1.3 INTENTIONALLY FAILING TEST!!!
+    // 1.3 INTENTIONALLY FAILING TEST
     @BeforeMethod
     public void setUpFail(){
     }
@@ -60,7 +60,7 @@ public class EmployeeTest
     public void tearDownFail(){
     }
 
-    // 1.4 TEST WITH A TIMEOUT!!! (BOOLEAN IS SET TO TRUE AFTER TIMOUT THROWS AN EXCPETION TO PREVENT BUILD FAILURE)
+    // 1.4 TEST WITH A TIMEOUT (BOOLEAN IS SET TO TRUE AFTER TIMOUT THROWS AN EXCPETION TO PREVENT BUILD FAILURE)
     @BeforeMethod
     public void setUpTimeOut(){
     }
