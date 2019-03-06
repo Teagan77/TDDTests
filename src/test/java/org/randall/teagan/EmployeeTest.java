@@ -26,6 +26,7 @@ public class EmployeeTest
     @Test
     public void testEmpEquality()
     {
+        // TESTING EQUALITY USING OVERRIDDEN equals() METHOD
         assertEquals("Employee C is a copy of Emplyee A, and will therefore be equal.", true ,a.equals(c));
     }
     @AfterMethod
